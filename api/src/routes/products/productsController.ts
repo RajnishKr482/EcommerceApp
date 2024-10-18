@@ -14,5 +14,5 @@ export function updateProduct(req: Request, res: Response) {
   res.send("update Products");
 }
 export function deleteProduct(req: Request, res: Response) {
-  res.send("delete product");
+  res.send("deleted product");
 }
