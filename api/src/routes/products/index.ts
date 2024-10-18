@@ -7,7 +7,6 @@ import {
   updateProduct,
 } from "./productsController";
 const router = Router();
-
 router.get("/", listProducts);
 router.get("/:id", getProductById);
 router.post("/", createProduct);
